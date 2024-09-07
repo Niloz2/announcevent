@@ -821,79 +821,6 @@
 
     </section><!-- /Faq Section -->
 
-    {{-- <!-- Buy Tickets Section -->
-        <section id="buy-tickets" class="buy-tickets section light-background">
-
-            <!-- Section Title -->
-            <div class="container section-title" data-aos="fade-up">
-                <h2>Buy Tickets<br></h2>
-                <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-            </div><!-- End Section Title -->
-
-            <div class="container">
-
-                <div class="row gy-4 pricing-item" data-aos="fade-up" data-aos-delay="100">
-                    <div class="col-lg-3 d-flex align-items-center justify-content-center">
-                        <h3>Standard Access</h3>
-                    </div>
-                    <div class="col-lg-3 d-flex align-items-center justify-content-center">
-                        <h4><sup>$</sup>150<span> / month</span></h4>
-                    </div>
-                    <div class="col-lg-3 d-flex align-items-center justify-content-center">
-                        <ul>
-                            <li><i class="bi bi-check"></i> <span>Quam adipiscing vitae proin</span></li>
-                            <li><i class="bi bi-check"></i> <span>Nulla at volutpat diam uteera</span></li>
-                            <li class="na"><i class="bi bi-x"></i> <span>Pharetra massa massa ultricies</span>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-3 d-flex align-items-center justify-content-center">
-                        <div class="text-center"><a href="#" class="buy-btn">Buy Now</a></div>
-                    </div>
-                </div><!-- End Pricing Item -->
-
-                <div class="row gy-4 pricing-item featured mt-4" data-aos="fade-up" data-aos-delay="200">
-                    <div class="col-lg-3 d-flex align-items-center justify-content-center">
-                        <h3>Premium Access<br></h3>
-                    </div>
-                    <div class="col-lg-3 d-flex align-items-center justify-content-center">
-                        <h4><sup>$</sup>250<span> / month</span></h4>
-                    </div>
-                    <div class="col-lg-3 d-flex align-items-center justify-content-center">
-                        <ul>
-                            <li><i class="bi bi-check"></i> <span>Quam adipiscing vitae proin</span></li>
-                            <li><i class="bi bi-check"></i> <strong>Nec feugiat nisl pretium</strong></li>
-                            <li><i class="bi bi-check"></i> <span>Nulla at volutpat diam uteera</span></li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-3 d-flex align-items-center justify-content-center">
-                        <div class="text-center"><a href="#" class="buy-btn">Buy Now</a></div>
-                    </div>
-                </div><!-- End Pricing Item -->
-
-                <div class="row gy-4 pricing-item mt-4" data-aos="fade-up" data-aos-delay="300">
-                    <div class="col-lg-3 d-flex align-items-center justify-content-center">
-                        <h3>Pro Access<br></h3>
-                    </div>
-                    <div class="col-lg-3 d-flex align-items-center justify-content-center">
-                        <h4><sup>$</sup>350<span> / month</span></h4>
-                    </div>
-                    <div class="col-lg-3 d-flex align-items-center justify-content-center">
-                        <ul>
-                            <li><i class="bi bi-check"></i> <span>Quam adipiscing vitae proin</span></li>
-                            <li><i class="bi bi-check"></i> <span>Nec feugiat nisl pretium</span></li>
-                            <li><i class="bi bi-check"></i> <span>Nulla at volutpat diam uteera</span></li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-3 d-flex align-items-center justify-content-center">
-                        <div class="text-center"><a href="#" class="buy-btn">Buy Now</a></div>
-                    </div>
-                </div><!-- End Pricing Item -->
-
-            </div>
-
-        </section><!-- /Buy Tickets Section --> --}}
-
     <!-- Buy Tickets Section -->
     <section id="buy-tickets" class="buy-tickets section light-background">
 
@@ -905,7 +832,7 @@
 
         <div class="container">
             <!-- Event-Specific Pricing for Standard Access -->
-            <div class="row gy-4 pricing-item" data-aos="fade-up" data-aos-delay="100">
+            <div class="row gy-4 pricing-item" data-aos="fade-up" data-aos-delay="50">
                 <div class="col-lg-3 d-flex align-items-center justify-content-center">
                     <h3>Standard Access</h3>
                 </div>
@@ -927,7 +854,7 @@
             </div><!-- End Pricing Item -->
 
             <!-- Event-Specific Pricing for Premium Access -->
-            <div class="row gy-4 pricing-item featured mt-4" data-aos="fade-up" data-aos-delay="150">
+            <div class="row gy-4 pricing-item featured mt-4" data-aos="fade-up" data-aos-delay="50">
                 <div class="col-lg-3 d-flex align-items-center justify-content-center">
                     <h3>Premium Access</h3>
                 </div>
@@ -949,7 +876,7 @@
             </div><!-- End Pricing Item -->
 
             <!-- Event-Specific Pricing for Pro Access -->
-            <div class="row gy-4 pricing-item mt-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="row gy-4 pricing-item mt-4" data-aos="fade-up" data-aos-delay="50">
                 <div class="col-lg-3 d-flex align-items-center justify-content-center">
                     <h3>Pro Access</h3>
                 </div>
@@ -998,11 +925,11 @@
                             <div class="mb-3">
                                 <label for="eventSelect" class="form-label">Select Event</label>
                                 <select id="eventSelect" class="form-select" required>
-                                    <option value="annual-marketing">THE ANNUAL<br><span>MARKETING</span> CONFERENCE
+                                    <option value="annual-marketing">THE ANNUAL MARKETING CONFERENCE
                                     </option>
                                     <option value="entrepreneurship-conference">ENTREPRENEURSHIP
-                                        CONFERENCE<br><span>GROWTH</span> MINDSETS</option>
-                                    <option value="investment-readness">INVESTMENT<br><span>READNESS</span> FOR
+                                        CONFERENCE GROWTH MINDSETS</option>
+                                    <option value="investment-readness">INVESTMENT READNESS FOR
                                         STARTUPS</option>
                                     <!-- Add more events as needed -->
                                 </select>
