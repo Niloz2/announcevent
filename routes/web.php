@@ -16,3 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+//speaker-details route
+Route::get('/speaker-details', function () {
+    return view('speaker-details');
+});
