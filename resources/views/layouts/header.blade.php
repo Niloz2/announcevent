@@ -51,7 +51,7 @@
 
             <nav id="navmenu" class="navmenu">
                 <ul>
-                    <li><a href="/" class="active">Home<br></a></li>
+                    <li><a href="#hero" class="active">Home<br></a></li>
                     <li><a href="#speakers">Speakers</a></li>
                     <!-- <li><a href="#schedule">Schedule</a></li> -->
                     <li><a href="#venue">Venue</a></li>
