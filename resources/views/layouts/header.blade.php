@@ -76,12 +76,11 @@
             </ul>
           </li> -->
                     <li><a href="#contact">Contact</a></li>
+                    <a class="cta-btn btn btn-sm btn-primary px-3 py-2" href="#buy-tickets">Buy Tickets</a>
                 </ul>
                 <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
             </nav>
-
-            <a class="cta-btn d-none d-sm-block" href="#buy-tickets">Buy Tickets</a>
-
+            {{-- <a class="cta-btn d-none d-sm-block" href="#buy-tickets">Buy Tickets</a> --}}
         </div>
     </header>
 </body>
