@@ -45,6 +45,30 @@
     .fa-whatsapp {
         color: #25D366; /* WhatsApp color */
     }
+
+    /*Style for the Book Ticket cards.*/
+    /* Card Hover Effect */
+.card {
+    transition: background 0.4s ease, transform 0.4s ease;
+    background: linear-gradient(135deg, #fff, #e6e6e6);
+}
+
+.card:hover {
+    background: linear-gradient(135deg, #007bff, #00d4ff); /* Animated background on hover */
+    transform: translateY(-10px); /* Add a slight lift on hover */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Add shadow effect */
+}
+
+/* Button hover effect */
+.btn {
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3; /* Change button color on hover */
+    color: #fff;
+}
+/*End Style for Book Ticket cards*/
 </style>
 <main class="main">
 
