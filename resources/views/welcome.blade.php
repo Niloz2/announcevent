@@ -34,6 +34,17 @@
             transform: translateX(-100%);
         }
     }
+    i {
+        margin-right: 5px; /* Adds space between icon and text */
+    }
+
+    .fa-phone-alt {
+        color: green; /* Call icon color */
+    }
+
+    .fa-whatsapp {
+        color: #25D366; /* WhatsApp color */
+    }
 </style>
 <main class="main">
 
@@ -62,11 +73,27 @@
                             class="glightbox pulsating-play-btn mt-3"></a>
                     </div>
                 </div>
+                <!-- Third Video Item -->
+                <div class="carousel-item" data-aos="fade-up" data-aos-delay="200">
+                    <h2>Tanzania Annual ICT Conference 2024</h2>
+                    <p>13-17 October 2024, Julius Nyerere International Convention Centre (JNICC) - Dar es salaam</p>
+                    <div class="mt-3">
+                        <a href="https://www.youtube.com/watch?v=Tilfkfy-9r0"
+                            class="glightbox pulsating-play-btn mt-3"></a>
+                    </div>
+                </div>
             </div>
             <!-- Sliding Message -->
             <div class="sliding-message-container">
                 <div class="sliding-message" data-aos="fade-in">
-                    <p>Contact Us Via +255 621 929 845 to announce Your Event with us.</p>
+                    <p>
+                        <i class="fas fa-phone-alt"></i> Call Us Via +255 621 929 845 
+                        or <i class="fab fa-whatsapp"></i> WhatsApp Us to announce your event with us.
+                    </p>
+                    
+                    <!-- Include Font Awesome for icons -->
+                    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+                    
                 </div>
             </div>
 
@@ -508,6 +535,27 @@
             </div>
 
         </div>
+        {{-- Added the third event venue for the Tanzania Annual ICT Conference 2024 --}}
+        <div class="container-fluid" data-aos="fade-up">
+
+            <div class="row g-0">
+                <div class="col-lg-6 venue-map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15846.641953430202!2d39.27361105187985!3d-6.81108695003068!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x185c4b13ab3b27db%3A0x5e80e2765959908e!2sJulius%20Nyerere%20International%20Convention%20Centre!5e0!3m2!1sen!2stz!4v1725806252276!5m2!1sen!2stz"
+                        frameborder="0" style="border:0" allowfullscreen=""></iframe>
+                </div>
+
+                <div class="col-lg-6 venue-info">
+                    <div class="row justify-content-center">
+                        <div class="col-11 col-lg-8 position-relative">
+                            <h3>Tanzania Annual ICT Conference 2024</h3>
+                            <p>Unleashing the Power of Artificial Intelligence and Robotics for socio-economic Transformation</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
 
         <div class="container-fluid venue-gallery-container" data-aos="fade-up" data-aos-delay="100">
             <div class="row g-0">
@@ -869,140 +917,51 @@
             <h2>Buy Tickets</h2>
             <p>Choose the best ticket option that suits your needs and enjoy a world-class conference experience</p>
         </div><!-- End Section Title -->
-
-        <div class="container">
-            <!-- Event-Specific Pricing for Standard Access -->
-            <div class="row gy-4 pricing-item" data-aos="fade-up" data-aos-delay="50">
-                <div class="col-lg-3 d-flex align-items-center justify-content-center">
-                    <h3>Standard Access</h3>
-                </div>
-                <div class="col-lg-3 d-flex align-items-center justify-content-center">
-                    <h4><sup>$</sup><span>150</span><span> / event</span></h4>
-                </div>
-                <div class="col-lg-3 d-flex align-items-center justify-content-center">
-                    <ul>
-                        <li><i class="bi bi-check"></i> <span>Access to all general sessions</span></li>
-                        <li><i class="bi bi-check"></i> <span>Access to exhibition hall</span></li>
-                        <li class="na"><i class="bi bi-x"></i> <span>Exclusive workshops & networking</span></li>
-                    </ul>
-                </div>
-                <div class="col-lg-3 d-flex align-items-center justify-content-center">
-                    <div class="text-center"><a href="#" class="buy-btn" data-bs-toggle="modal"
-                            data-bs-target="#bookingModal" data-price="150" data-type="Standard Access">Buy Now</a>
+            <div class="container">
+                <!-- Event Card for Entrepreneurship Conference -->
+                <div class="row gy-4 pricing-item" data-aos="fade-up" data-aos-delay="50">
+                    <div class="col-lg-4 d-flex align-items-center justify-content-center">
+                        <div class="card text-center">
+                            <div class="card-body">
+                                <h3 class="card-title">Entrepreneurship Conference</h3>
+                                <a href="#" class="btn btn-primary" target="_blank">Book Now</a>
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div><!-- End Pricing Item -->
-
-            <!-- Event-Specific Pricing for Premium Access -->
-            <div class="row gy-4 pricing-item featured mt-4" data-aos="fade-up" data-aos-delay="50">
-                <div class="col-lg-3 d-flex align-items-center justify-content-center">
-                    <h3>Premium Access</h3>
-                </div>
-                <div class="col-lg-3 d-flex align-items-center justify-content-center">
-                    <h4><sup>$</sup><span>250</span><span> / event</span></h4>
-                </div>
-                <div class="col-lg-3 d-flex align-items-center justify-content-center">
-                    <ul>
-                        <li><i class="bi bi-check"></i> <span>Everything in Standard Access</span></li>
-                        <li><i class="bi bi-check"></i> <strong>Access to exclusive workshops</strong></li>
-                        <li><i class="bi bi-check"></i> <span>VIP Networking session</span></li>
-                    </ul>
-                </div>
-                <div class="col-lg-3 d-flex align-items-center justify-content-center">
-                    <div class="text-center"><a href="#" class="buy-btn" data-bs-toggle="modal"
-                            data-bs-target="#bookingModal" data-price="250" data-type="Premium Access">Buy Now</a>
+                    
+                    <!-- Event Card for Growth Mindset Workshop -->
+                    <div class="col-lg-4 d-flex align-items-center justify-content-center">
+                        <div class="card text-center">
+                            <div class="card-body">
+                                <h3 class="card-title">Growth Mindset Workshop</h3>
+                                <a href="#" class="btn btn-primary" target="_blank">Book Now</a>
+                            </div>
+                        </div>
                     </div>
+            
+                    <!-- Event Card for Leadership Summit -->
+                    <div class="col-lg-4 d-flex align-items-center justify-content-center">
+                        <div class="card text-center">
+                            <div class="card-body">
+                                <h3 class="card-title">Leadership Summit</h3>
+                                <a href="#" class="btn btn-primary" target="_blank">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                     <!-- Event Card forUnleashing the Power of Artificial Intelligence and Robotics for socio-economic Transformation Conference -->
+                     <div class="col-lg-4 d-flex align-items-center justify-content-center">
+                        <div class="card text-center">
+                            <div class="card-body">
+                                <h3 class="card-title">Unleashing the Power of Artificial Intelligence and Robotics for socio-economic Transformation</h3>
+                                <a href="https://ems.ictc.go.tz/" class="btn btn-primary" target="_blank">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <!-- Add more event cards as needed -->
                 </div>
-            </div><!-- End Pricing Item -->
-
-            <!-- Event-Specific Pricing for Pro Access -->
-            <div class="row gy-4 pricing-item mt-4" data-aos="fade-up" data-aos-delay="50">
-                <div class="col-lg-3 d-flex align-items-center justify-content-center">
-                    <h3>Pro Access</h3>
-                </div>
-                <div class="col-lg-3 d-flex align-items-center justify-content-center">
-                    <h4><sup>$</sup><span>350</span><span> / event</span></h4>
-                </div>
-                <div class="col-lg-3 d-flex align-items-center justify-content-center">
-                    <ul>
-                        <li><i class="bi bi-check"></i> <span>Everything in Premium Access</span></li>
-                        <li><i class="bi bi-check"></i> <span>One-on-one session with keynote speakers</span></li>
-                        <li><i class="bi bi-check"></i> <span>Access to post-conference materials</span></li>
-                    </ul>
-                </div>
-                <div class="col-lg-3 d-flex align-items-center justify-content-center">
-                    <div class="text-center"><a href="#" class="buy-btn" data-bs-toggle="modal"
-                            data-bs-target="#bookingModal" data-price="350" data-type="Pro Access">Buy Now</a></div>
-                </div>
-            </div><!-- End Pricing Item -->
-
+            </div>      
         </div>
-
-        <!-- Booking Modal -->
-        <div class="modal fade" id="bookingModal" tabindex="-1" aria-labelledby="bookingModalLabel"
-            aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="bookingModalLabel">Book Your Ticket</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal"
-                            aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <form id="bookingForm">
-                            <div class="mb-3">
-                                <label for="eventType" class="form-label">Ticket Type</label>
-                                <select id="eventType" class="form-select" disabled required>
-                                    <option value="Standard Access">Standard Access</option>
-                                    <option value="Premium Access">Premium Access</option>
-                                    <option value="Pro Access">Pro Access</option>
-                                </select>
-                            </div>
-                            <div class="mb-3">
-                                <label for="eventPrice" class="form-label">Price</label>
-                                <input type="text" id="eventPrice" class="form-control" readonly>
-                            </div>
-                            <div class="mb-3">
-                                <label for="eventSelect" class="form-label">Select Event</label>
-                                <select id="eventSelect" class="form-select" required>
-                                    <option value="annual-marketing">THE ANNUAL MARKETING CONFERENCE
-                                    </option>
-                                    <option value="entrepreneurship-conference">ENTREPRENEURSHIP
-                                        CONFERENCE GROWTH MINDSETS</option>
-                                    <option value="investment-readness">INVESTMENT READNESS FOR
-                                        STARTUPS</option>
-                                    <!-- Add more events as needed -->
-                                </select>
-                            </div>
-                            <div class="mb-3">
-                                <label for="name" class="form-label">Full Name</label>
-                                <input type="text" id="name" class="form-control" required>
-                            </div>
-                            <div class="mb-3">
-                                <label for="email" class="form-label">Email Address</label>
-                                <input type="email" id="email" class="form-control" required>
-                            </div>
-                            <!-- Additional fields as needed for Payment Gateway -->
-                            <div class="mb-3">
-                                <label for="paymentMethod" class="form-label">Payment Method</label>
-                                <select id="paymentMethod" class="form-select" required>
-                                    <option value="Tigo-Pesa">Tigo-Pesa</option>
-                                    <option value="AirtelMoney">AirtelMoney</option>
-                                    <!-- Add other payment options if necessary -->
-                                </select>
-                            </div>
-                            <div class="mb-3">
-                                <label for="phone" class="form-label">Phone Number</label>
-                                <input type="tel" id="phone" class="form-control"
-                                    placeholder="Enter tigo/airtel phone number to pay" required>
-                            </div>
-                            <button type="submit" class="btn btn-primary">Complete Booking</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div><!-- End Booking Modal -->
-
     </section><!-- /Buy Tickets Section -->
 
 
@@ -1128,6 +1087,13 @@
                 description: "The Entrepreneurship Conference focuses on developing growth mindsets to succeed in the ever-changing business environment.",
                 location: "Nyerere Square Convention Center, Dodoma, Tanzania",
                 date: "Friday to Sunday<br>15-17 November 2024"
+            },
+            {
+                // Third event details (this corresponds to the third carousel item)
+                title: "About Unleashing the Power of Artificial Intelligence and Robotics for socio-economic Transformation",
+                description: "The Tanzania Annual ICT Conference 2024 focuses on Unleashing the Power of Artificial Intelligence and Robotics for socio-economic Transformation.",
+                location: "Julius Nyerere International Convention Centre (JNICC) - Dar es salaam, Tanzania",
+                date: "Sunday to Thursday<br>13-17 October 2024"
             }
             // You can add more event details here if there are additional slides
         ];
@@ -1144,29 +1110,6 @@
             eventDescription.innerHTML = details.description;
             eventLocation.innerHTML = details.location;
             eventDate.innerHTML = details.date;
-        });
-    });
-    //Function for Booking Modal Handling.
-    document.addEventListener('DOMContentLoaded', function() {
-        const bookingModal = new bootstrap.Modal(document.getElementById('bookingModal'));
-
-        document.querySelectorAll('.buy-btn').forEach(button => {
-            button.addEventListener('click', function(event) {
-                const price = this.getAttribute('data-price');
-                const type = this.getAttribute('data-type');
-
-                // Set the modal content based on the clicked button
-                document.getElementById('eventType').value = type;
-                document.getElementById('eventPrice').value = `$${price}`;
-            });
-        });
-
-        // Handle form submission
-        document.getElementById('bookingForm').addEventListener('submit', function(event) {
-            event.preventDefault();
-            // Here you would add your code to handle the form submission and payment
-            alert('Booking submitted!');
-            bookingModal.hide(); // Hide the modal after submission
         });
     });
 </script>
