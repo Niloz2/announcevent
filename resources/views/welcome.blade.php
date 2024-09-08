@@ -1,5 +1,40 @@
 @include('layouts.header')<!--Include the Header of the website-->
 
+<!-- CSS for Sliding Message -->
+<style>
+    .sliding-message-container {
+        background-color: #000;
+        /* Background color */
+        color: #fff;
+        /* Text color */
+        text-align: center;
+        padding: 2px 0;
+        position: fixed;
+        /* Fixed at the top */
+        width: 100%;
+        z-index: 1000;
+        top: 0;
+        /* Stick it to the top of the page */
+    }
+
+    .sliding-message p {
+        margin: 0;
+        color: white;
+        font-size: 12px;
+        animation: slide-message 25s linear infinite;
+        /* Sliding animation */
+    }
+
+    @keyframes slide-message {
+        0% {
+            transform: translateX(100%);
+        }
+
+        100% {
+            transform: translateX(-100%);
+        }
+    }
+</style>
 <main class="main">
 
     <!-- Hero Section -->
@@ -28,6 +63,12 @@
                     </div>
                 </div>
             </div>
+            <!-- Sliding Message -->
+            <div class="sliding-message-container">
+                <div class="sliding-message" data-aos="fade-in">
+                    <p>Contact Us Via +255 621 929 845 to announce Your Event with us.</p>
+                </div>
+            </div>
 
             <!-- Carousel Controls -->
             <button class="carousel-control-prev" type="button" data-bs-target="#videoCarousel" data-bs-slide="prev">
@@ -39,7 +80,6 @@
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
-
         <div class="about-info mt-auto position-relative">
             <div class="container position-relative" data-aos="fade-up">
                 <div class="row">
