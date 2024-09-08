@@ -94,7 +94,7 @@
                         data-aos="fade-up" data-aos-delay="400">
                         <i class="bi bi-envelope"></i>
                         <h3>Email Us</h3>
-                        <p>support@Announcevent.com</p>
+                        <p>support@announcevent.com</p>
                     </div>
                 </div><!-- End Info Item -->
 
