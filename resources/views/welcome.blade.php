@@ -84,7 +84,7 @@
                         <div class="member-info">
                             <div class="member-info-content">
                                 <h4><a href="/speaker-details">Walter White</a></h4>
-                                <span>Quas alias incidunt</span>
+                                <span>Expert in Leadership & Innovation</span>
                             </div>
                             <div class="social">
                                 <a href=""><i class="bi bi-twitter-x"></i></a>
@@ -102,7 +102,7 @@
                         <div class="member-info">
                             <div class="member-info-content">
                                 <h4><a href="/speaker-details">Hubert Hirthe</a></h4>
-                                <span>Consequuntur odio aut</span>
+                                <span>Strategic Marketing Specialist</span>
                             </div>
                             <div class="social">
                                 <a href=""><i class="bi bi-twitter-x"></i></a>
@@ -120,7 +120,7 @@
                         <div class="member-info">
                             <div class="member-info-content">
                                 <h4><a href="/speaker-details">Amanda Jepson</a></h4>
-                                <span>Fugiat laborum et</span>
+                                <span>Technology & AI Visionary</span>
                             </div>
                             <div class="social">
                                 <a href=""><i class="bi bi-twitter-x"></i></a>
@@ -138,7 +138,7 @@
                         <div class="member-info">
                             <div class="member-info-content">
                                 <h4><a href="/speaker-details">William Anderson</a></h4>
-                                <span>Debitis iure vero</span>
+                                <span>Business Strategy Consultant</span>
                             </div>
                             <div class="social">
                                 <a href=""><i class="bi bi-twitter-x"></i></a>

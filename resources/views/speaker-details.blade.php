@@ -5,20 +5,19 @@
     <!-- Page Title -->
     <div class="page-title" data-aos="fade" style="background-image: url(assets/img/page-title-bg.webp);">
         <div class="container position-relative">
-            <h1>Speaker Details</h1>
-            <p>Esse dolorum voluptatum ullam est sint nemo et est ipsa porro placeat quibusdam quia assumenda numquam
-                molestias.</p>
+            <h1>Speaker Profile</h1>
+            <p>Discover more about our esteemed speaker and their contribution to this year's conference.</p>
             <nav class="breadcrumbs">
                 <ol>
                     <li><a href="index.html">Home</a></li>
-                    <li class="current">Speaker Details</li>
+                    <li class="current">Speaker Profile</li>
                 </ol>
             </nav>
         </div>
     </div><!-- End Page Title -->
 
-    <!-- Events Section -->
-    <section id="events" class="events section">
+    <!-- Speaker Section -->
+    <section id="speaker" class="speaker section">
 
         <div class="container" data-aos="fade-up" data-aos-delay="100">
 
@@ -36,18 +35,19 @@
                             <a href=""><i class="bi bi-instagram"></i></a>
                             <a href=""><i class="bi bi-linkedin"></i></a>
                         </div>
-                        <p>Voluptatem perferendis sed assumenda voluptatibus. Laudantium molestiae sint. Doloremque odio
-                            dolore dolore sit. Quae labore alias ea omnis ex expedita sapiente molestias atque. Optio
-                            voluptas et.</p>
+                        <p>Brenden Legros is a distinguished speaker known for his insights into technology and
+                            innovation. With a career spanning over a decade, he has been instrumental in shaping future
+                            leaders through his thought-provoking talks and workshops.</p>
 
-                        <p>Aboriosam inventore dolorem inventore nam est esse. Aperiam voluptatem nisi molestias laborum
-                            ut. Porro dignissimos eum. Tempore dolores minus unde est voluptatum incidunt ut aperiam.
-                        </p>
+                        <p>At this year's conference, Brenden will delve into the transformative impact of AI and
+                            emerging technologies, exploring their potential to drive growth and innovation in various
+                            industries. His sessions are known for being engaging, inspiring, and full of actionable
+                            insights.</p>
 
-                        <p>Et dolore blanditiis officiis non quod id possimus. Optio non commodi alias sint culpa
-                            sapiente nihil ipsa magnam. Qui eum alias provident omnis incidunt aut. Eius et officia
-                            corrupti omnis error vel quia omnis velit. In qui debitis autem aperiam voluptates unde sunt
-                            et facilis.</p>
+                        <p>Don't miss out on Brenden's session, where he will share his journey, expertise, and
+                            practical strategies for leveraging technology to solve real-world challenges. Whether
+                            you're a tech enthusiast or a business leader, his talk promises to offer valuable takeaways
+                            for everyone.</p>
                     </div>
                 </div>
 
@@ -55,7 +55,7 @@
 
         </div>
 
-    </section><!-- /Events Section -->
+    </section><!-- /Speaker Section -->
 
     <!-- Contact Section -->
     <section id="contact" class="contact section">
