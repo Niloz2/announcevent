@@ -102,7 +102,7 @@
                     <h2>Tanzania Annual ICT Conference 2024</h2>
                     <p>13-17 October 2024, Julius Nyerere International Convention Centre (JNICC) - Dar es salaam</p>
                     <div class="mt-3">
-                        <a href="https://www.youtube.com/watch?v=Tilfkfy-9r0"
+                        <a href="https://www.youtube.com/watch?v=Dlzt1FttXGw"
                             class="glightbox pulsating-play-btn mt-3"></a>
                     </div>
                 </div>
@@ -677,7 +677,7 @@
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
                     <div class="card h-100">
                         <div class="card-img">
-                            <img src="assets/img/hotels-1.jpg" alt="" class="img-fluid">
+                            <img src="assets/img/dodoma-city-hotel-image.jpg" alt="" class="img-fluid">
                         </div>
                         <h3><a href="#" class="stretched-link">Best Western Dodoma City Hotel</a></h3>
                         <div class="stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
@@ -689,7 +689,7 @@
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
                     <div class="card h-100">
                         <div class="card-img">
-                            <img src="assets/img/hotels-2.jpg" alt="" class="img-fluid">
+                            <img src="assets/img/morenahotel.jpg" alt="" class="img-fluid">
                         </div>
                         <h3><a href="#" class="stretched-link">Morena Hotel</a></h3>
                         <div class="stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
@@ -701,7 +701,7 @@
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
                     <div class="card h-100">
                         <div class="card-img">
-                            <img src="assets/img/hotels-3.jpg" alt="" class="img-fluid">
+                            <img src="assets/img/Nashera-hotel-image.jpg" alt="" class="img-fluid">
                         </div>
                         <h3><a href="#" class="stretched-link">Nashera Hotel</a></h3>
                         <div class="stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
@@ -976,7 +976,7 @@
                      <div class="col-lg-4 d-flex align-items-center justify-content-center">
                         <div class="card text-center">
                             <div class="card-body">
-                                <h3 class="card-title">Unleashing the Power of Artificial Intelligence and Robotics for socio-economic Transformation</h3>
+                                <h3 class="card-title">Tanzania Annual ICT Conference 2024</h3>
                                 <a href="https://ems.ictc.go.tz/" class="btn btn-primary" target="_blank">Book Now</a>
                             </div>
                         </div>
