@@ -34,41 +34,50 @@
             transform: translateX(-100%);
         }
     }
+
     i {
-        margin-right: 5px; /* Adds space between icon and text */
+        margin-right: 5px;
+        /* Adds space between icon and text */
     }
 
     .fa-phone-alt {
-        color: green; /* Call icon color */
+        color: green;
+        /* Call icon color */
     }
 
     .fa-whatsapp {
-        color: #25D366; /* WhatsApp color */
+        color: #25D366;
+        /* WhatsApp color */
     }
 
     /*Style for the Book Ticket cards.*/
     /* Card Hover Effect */
-.card {
-    transition: background 0.4s ease, transform 0.4s ease;
-    background: linear-gradient(135deg, #fff, #e6e6e6);
-}
+    .card {
+        transition: background 0.4s ease, transform 0.4s ease;
+        background: linear-gradient(135deg, #fff, #e6e6e6);
+    }
 
-.card:hover {
-    background: linear-gradient(135deg, #007bff, #00d4ff); /* Animated background on hover */
-    transform: translateY(-10px); /* Add a slight lift on hover */
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Add shadow effect */
-}
+    .card:hover {
+        background: linear-gradient(135deg, #007bff, #00d4ff);
+        /* Animated background on hover */
+        transform: translateY(-10px);
+        /* Add a slight lift on hover */
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        /* Add shadow effect */
+    }
 
-/* Button hover effect */
-.btn {
-    transition: background 0.3s ease;
-}
+    /* Button hover effect */
+    .btn {
+        transition: background 0.3s ease;
+    }
 
-.btn:hover {
-    background-color: #0056b3; /* Change button color on hover */
-    color: #fff;
-}
-/*End Style for Book Ticket cards*/
+    .btn:hover {
+        background-color: #0056b3;
+        /* Change button color on hover */
+        color: #fff;
+    }
+
+    /*End Style for Book Ticket cards*/
 </style>
 <main class="main">
 
@@ -81,19 +90,19 @@
             <div class="carousel-inner">
                 <!-- First Video Item -->
                 <div class="carousel-item active" data-aos="fade-up" data-aos-delay="100">
-                    <h2>THE ANNUAL<br><span>MARKETING</span> CONFERENCE</h2>
-                    <p>10-12 December 2024, Jakaya Kikwete Convention Center, Dodoma, Tanzania</p>
+                    <h2>The Startup Week Event</h2>
+                    <p>18-22 November 2024, Julius Nyerere International Convention Centre (JNICC) - Dar es salaam</p>
                     <div class="mt-3">
-                        <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8"
+                        <a href="https://www.youtube.com/watch?v=voV4tF2kMRM"
                             class="glightbox pulsating-play-btn mt-3"></a>
                     </div>
                 </div>
                 <!-- Second Video Item -->
                 <div class="carousel-item" data-aos="fade-up" data-aos-delay="200">
-                    <h2>ENTREPRENEURSHIP CONFERENCE<br><span>GROWTH</span> MINDSETS</h2>
-                    <p>15-17 November 2024, Nyerere Square Convention Center, Dodoma, Tanzania</p>
+                    <h2>Tanzania International Manufacturers Expo (TIMEXPO) 2024</h2>
+                    <p>26-30 September 2024, Dar es Salaam - Mwalimu J. K. Nyerere Trade Fair Ground, Dar es Salaam, Tanzania</p>
                     <div class="mt-3">
-                        <a href="https://www.youtube.com/watch?v=Tilfkfy-9r0"
+                        <a href="https://www.youtube.com/watch?v=WAYfdJrdZcQ"
                             class="glightbox pulsating-play-btn mt-3"></a>
                     </div>
                 </div>
@@ -111,13 +120,14 @@
             <div class="sliding-message-container">
                 <div class="sliding-message" data-aos="fade-in">
                     <p>
-                        <i class="fas fa-phone-alt"></i> Call Us Via +255 621 929 845 
+                        <i class="fas fa-phone-alt"></i> Call Us Via +255 621 929 845
                         or <i class="fab fa-whatsapp"></i> WhatsApp Us to announce your event with us.
                     </p>
-                    
+
                     <!-- Include Font Awesome for icons -->
-                    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-                    
+                    <link rel="stylesheet"
+                        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
                 </div>
             </div>
 
@@ -143,11 +153,12 @@
                     </div>
                     <div class="col-lg-3">
                         <h3>Where</h3>
-                        <p id="event-location">Jakaya Kikwete Convention Center</p>
+                        <p id="event-location">Julius Nyerere International Convention Centre (JNICC) - Dar es salaam
+                        </p>
                     </div>
                     <div class="col-lg-3">
                         <h3>When</h3>
-                        <p id="event-date">Monday to Wednesday<br>10-12 December 2024 9:00 AM - 5:00 PM</p>
+                        <p id="event-date">Monday to Friday<br>18-22 November 2024 9:00 AM - 5:00 PM</p>
                     </div>
                 </div>
             </div>
@@ -515,19 +526,15 @@
             <div class="row g-0">
                 <div class="col-lg-6 venue-map">
                     <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.641107035277!2d35.744713223363256!3d-6.1787715938086665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x184de55bcb3301b1%3A0xe2161c9bbee063a6!2sNyerere%20Square%2C%20Dodoma!5e0!3m2!1sen!2stz!4v1725717513697!5m2!1sen!2stz"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.218339738556!2d39.2758771733486!3d-6.864417793134152!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x185c358044fd2c7d%3A0xbc0715eaf25fade8!2sSabasaba%20International%20Trade%20Fair!5e0!3m2!1sen!2stz!4v1726579357612!5m2!1sen!2stz"
                         frameborder="0" style="border:0" allowfullscreen=""></iframe>
                 </div>
 
                 <div class="col-lg-6 venue-info">
                     <div class="row justify-content-center">
                         <div class="col-11 col-lg-8 position-relative">
-                            <h3>ENTREPRENEURSHIP CONFERENCE<br><span>GROWTH</span> MINDSETS</h3>
-                            <p>Our event will be held at the Nyerere Square Convention Center in Dodoma-Tanzania, a
-                                state-of-the-art
-                                facility designed to foster collaboration and innovation. The venue is easily accessible
-                                and provides a professional yet welcoming atmosphere for attendees to engage and
-                                network.</p>
+                            <h3>Tanzania International Manufacturers Expo (TIMEXPO) 2024</h3>
+                            <p>Our event will be held at the Saba Saba Grounds in Dar es Salaam-Tanzania, this expo focuses on showcasing Tanzania’s manufacturing potential. It’s a great opportunity to network with industry professionals and investors interested in local businesses​</p>
                         </div>
                     </div>
                 </div>
@@ -547,8 +554,9 @@
                 <div class="col-lg-6 venue-info">
                     <div class="row justify-content-center">
                         <div class="col-11 col-lg-8 position-relative">
-                            <h3>THE ANNUAL<br><span>MARKETING</span> CONFERENCE</h3>
-                            <p>Our event will be held at the Jakay Kikwete Convention Center in Dodoma-Tanzania, a
+                            <h3>THE STARTUP<br><span>WEEK</span> CONFERENCE</h3>
+                            <p>Our event will be held at the Julius Nyerere International Convention Centre (JNICC) -
+                                Dar es salaam, a
                                 state-of-the-art
                                 facility designed to foster collaboration and innovation. The venue is easily accessible
                                 and provides a professional yet welcoming atmosphere for attendees to engage and
@@ -573,7 +581,8 @@
                     <div class="row justify-content-center">
                         <div class="col-11 col-lg-8 position-relative">
                             <h3>Tanzania Annual ICT Conference 2024</h3>
-                            <p>Unleashing the Power of Artificial Intelligence and Robotics for socio-economic Transformation</p>
+                            <p>Unleashing the Power of Artificial Intelligence and Robotics for socio-economic
+                                Transformation</p>
                         </div>
                     </div>
                 </div>
@@ -673,40 +682,59 @@
         <div class="container">
 
             <div class="row gy-4">
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card h-100">
+                        <div class="card-img">
+                            <img src="assets/img/Hyatt-Regency-Hotel-DSM.jpg" alt="" class="img-fluid">
+                        </div>
+                        <h3><a href="https://www.booking.com/hotel/tz/hyatt-regency-dar-es-salaam-the-kilimanjaro.en-gb.html?aid=357028&label=bin859jc-1DCAUo6AFCLmp1bGl1cy1ueWVyZXJlLWludGVybmF0aW9uYWwtY29udmVudGlvbi1jZW50cmVICVgDaOgBiAEBmAEJuAEXyAEM2AED6AEB-AEDiAIBqAIDuAKw86S3BsACAdICJGQ3NGRlYzk5LTk3NWUtNDkxNS1iYjNmLTA5YzU2NGY1OWY3MdgCBOACAQ#map_opened-hotel_header"
+                                class="stretched-link" target="_blank">Hyatt Regency Dar es Salaam, The
+                                Kilimanjaro</a></h3>
+                        <div class="stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+                        <p>650m from the JNICC Venue</p>
+                    </div>
+                </div><!-- End Card Item -->
 
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
                     <div class="card h-100">
                         <div class="card-img">
-                            <img src="assets/img/dodoma-city-hotel-image.jpg" alt="" class="img-fluid">
+                            <img src="assets/img/Sheraton-Hotel-DSM.jpg" alt="" class="img-fluid">
                         </div>
-                        <h3><a href="#" class="stretched-link">Best Western Dodoma City Hotel</a></h3>
+                        <h3><a href="https://www.booking.com/hotel/tz/new-africa.en-gb.html?aid=357028&label=bin859jc-1DCAUo6AFCLmp1bGl1cy1ueWVyZXJlLWludGVybmF0aW9uYWwtY29udmVudGlvbi1jZW50cmVICVgDaOgBiAEBmAEJuAEXyAEM2AED6AEB-AEDiAIBqAIDuAKw86S3BsACAdICJGQ3NGRlYzk5LTk3NWUtNDkxNS1iYjNmLTA5YzU2NGY1OWY3MdgCBOACAQ#map_opened-hotel_header"
+                                class="stretched-link" target="_blank">Four Points by Sheraton Dar es Salaam New
+                                Africa</a></h3>
                         <div class="stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
                                 class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
-                        <p>0.4 Mile from the Venue</p>
+                        <p>750m from the JNICC Venue</p>
                     </div>
                 </div><!-- End Card Item -->
 
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
                     <div class="card h-100">
                         <div class="card-img">
-                            <img src="assets/img/morenahotel.jpg" alt="" class="img-fluid">
+                            <img src="assets/img/Crownie-Plaza-Hotel-DSM.jpg" alt="" class="img-fluid">
                         </div>
-                        <h3><a href="#" class="stretched-link">Morena Hotel</a></h3>
+                        <h3><a href="https://www.booking.com/hotel/tz/crowne-plaza-dar-es-salaam-an-ihg.en-gb.html?aid=357028&label=bin859jc-1DCAUo6AFCLmp1bGl1cy1ueWVyZXJlLWludGVybmF0aW9uYWwtY29udmVudGlvbi1jZW50cmVICVgDaOgBiAEBmAEJuAEXyAEM2AED6AEB-AEDiAIBqAIDuAKw86S3BsACAdICJGQ3NGRlYzk5LTk3NWUtNDkxNS1iYjNmLTA5YzU2NGY1OWY3MdgCBOACAQ#map_opened-hotel_header"
+                                class="stretched-link" target="_blank">Crowne Plaza - Dar Es Salaam, an IHG Hotel</a>
+                        </h3>
                         <div class="stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
                                 class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
-                        <p>0.5 Mile from the Venue</p>
+                        <p>800m from the JNICC Venue</p>
                     </div>
                 </div><!-- End Card Item -->
 
-                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
                     <div class="card h-100">
                         <div class="card-img">
-                            <img src="assets/img/Nashera-hotel-image.jpg" alt="" class="img-fluid">
+                            <img src="assets/img/Mgulani-Hotel.jpg" alt="" class="img-fluid">
                         </div>
-                        <h3><a href="#" class="stretched-link">Nashera Hotel</a></h3>
+                        <h3><a href="https://www.booking.com/hotel/tz/mgulani-lodge.en-gb.html?aid=1181029&label=msn--79920942892651%3Atidat-2331720565599998%3Aloc-189%3Aneo%3Amtb%3Alp154525%3Adec%3AqsHotels%20near%20sabasaba%20Grounds%20Dar%20Es%20Salaam&sid=5fd441e6d84f927bf7cfd6581b3a1e78&dist=0;group_adults=2;group_children=0;hapos=1;hpos=1;no_rooms=1;req_adults=2;req_children=0;room1=A%2CA;sb_price_type=total;sr_order=distance_from_search;srepoch=1726579843;srpvid=c8045ecd71790316;type=total;ucfs=1&#map_opened-hotel_header"
+                                class="stretched-link" target="_blank">Mgulani Lodge Hotel</a>
+                        </h3>
                         <div class="stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
                                 class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
-                        <p>0.6 Mile from the Venue</p>
+                        <p>0.9km from the Saba Saba Grounds Venue</p>
                     </div>
                 </div><!-- End Card Item -->
 
@@ -941,50 +969,40 @@
             <h2>Buy Tickets</h2>
             <p>Choose the best ticket option that suits your needs and enjoy a world-class conference experience</p>
         </div><!-- End Section Title -->
-            <div class="container">
-                <!-- Event Card for Entrepreneurship Conference -->
-                <div class="row gy-4 pricing-item" data-aos="fade-up" data-aos-delay="50">
-                    <div class="col-lg-4 d-flex align-items-center justify-content-center">
-                        <div class="card text-center">
-                            <div class="card-body">
-                                <h3 class="card-title">Entrepreneurship Conference</h3>
-                                <a href="#" class="btn btn-primary" target="_blank">Book Now</a>
-                            </div>
+        <div class="container">
+            <!-- Event Buy Ticket Cards for  Conferences -->
+            <div class="row gy-4 pricing-item" data-aos="fade-up" data-aos-delay="50">
+                <!-- Event Card forUnleashing the Power of Artificial Intelligence and Robotics for socio-economic Transformation Conference -->
+                <div class="col-lg-4 d-flex align-items-center justify-content-center">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <h3 class="card-title">Tanzania Annual ICT Conference 2024</h3>
+                            <a href="https://ems.ictc.go.tz/" class="btn btn-primary" target="_blank">Book Now</a>
                         </div>
                     </div>
-                    
-                    <!-- Event Card for Growth Mindset Workshop -->
-                    <div class="col-lg-4 d-flex align-items-center justify-content-center">
-                        <div class="card text-center">
-                            <div class="card-body">
-                                <h3 class="card-title">Growth Mindset Workshop</h3>
-                                <a href="#" class="btn btn-primary" target="_blank">Book Now</a>
-                            </div>
-                        </div>
-                    </div>
-            
-                    <!-- Event Card for Leadership Summit -->
-                    <div class="col-lg-4 d-flex align-items-center justify-content-center">
-                        <div class="card text-center">
-                            <div class="card-body">
-                                <h3 class="card-title">Leadership Summit</h3>
-                                <a href="#" class="btn btn-primary" target="_blank">Book Now</a>
-                            </div>
-                        </div>
-                    </div>
-                     <!-- Event Card forUnleashing the Power of Artificial Intelligence and Robotics for socio-economic Transformation Conference -->
-                     <div class="col-lg-4 d-flex align-items-center justify-content-center">
-                        <div class="card text-center">
-                            <div class="card-body">
-                                <h3 class="card-title">Tanzania Annual ICT Conference 2024</h3>
-                                <a href="https://ems.ictc.go.tz/" class="btn btn-primary" target="_blank">Book Now</a>
-                            </div>
-                        </div>
-                    </div>
-            
-                    <!-- Add more event cards as needed -->
                 </div>
-            </div>      
+                <!-- Event Card for Startup Week Conference -->
+                <div class="col-lg-4 d-flex align-items-center justify-content-center">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <h3 class="card-title">Startup Week</h3>
+                            <a href="#" class="btn btn-primary" target="_blank">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Event Card for Tanzania International Manufacturers Expo (TIMEXPO) 2024 -->
+                <div class="col-lg-4 d-flex align-items-center justify-content-center">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <h3 class="card-title">Tanzania International Manufacturers Expo (TIMEXPO) 2024</h3>
+                            <a href="https://www.eventbrite.com/e/tanzania-international-manufacturers-expo-timexpo-2024-tickets-1009198679417?msockid=09345d7fa0e66fd1320849a1a11b6e96" class="btn btn-primary" target="_blank">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more event cards as needed -->
+            </div>
+        </div>
         </div>
     </section><!-- /Buy Tickets Section -->
 
@@ -1100,17 +1118,17 @@
         // Array of event details to match each carousel slide
         const eventDetails = [{
                 // First event details (this corresponds to the first carousel item)
-                title: "About The Annual Marketing Conference",
-                description: "The Annual Marketing Conference brings together professionals from all over the world to discuss the latest trends in marketing.",
-                location: "Jakaya Kikwete Convention Center, Dodoma, Tanzania",
-                date: "Monday to Wednesday<br>10-12 December 2024"
+                title: "About The Startup Week Conference",
+                description: "The Annual Startup Week Conference brings together professionals from all over the world to discuss the latest trends in Startups.",
+                location: "Julius Nyerere International Convention Centre (JNICC) - Dar es salaam",
+                date: "Monday to Wednesday<br>18-22 November 2024"
             },
             {
                 // Second event details (this corresponds to the second carousel item)
-                title: "About The Entrepreneurship Growth Mindsets Conference",
-                description: "The Entrepreneurship Conference focuses on developing growth mindsets to succeed in the ever-changing business environment.",
-                location: "Nyerere Square Convention Center, Dodoma, Tanzania",
-                date: "Friday to Sunday<br>15-17 November 2024"
+                title: "About The Tanzania International Manufacturers Expo (TIMEXPO) 2024 Conference",
+                description: "This expo focuses on showcasing Tanzania’s manufacturing potential. It’s a great opportunity to network with industry professionals and investors interested in local businesses​",
+                location: "Dar es Salaam - Mwalimu J. K. Nyerere Trade Fair Ground, Dar es Salaam, Tanzania",
+                date: "Thursday to Monady<br>26-30 September 2024"
             },
             {
                 // Third event details (this corresponds to the third carousel item)
