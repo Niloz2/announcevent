@@ -1118,6 +1118,12 @@
                             <input type="email" class="form-control" name="email" placeholder="Your Email"
                                 required="">
                         </div>
+                        <!-- New Phone Number Input -->
+                        <div class="col-md-6">
+                            <input type="tel" name="phone" class="form-control"
+                                placeholder="Your Phone Number" required="">
+                        </div>
+
 
                         <!-- Dropdown for Subject -->
                         <div class="col-md-12">

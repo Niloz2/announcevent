@@ -15,6 +15,7 @@ class ContactController extends Controller
             'email' => 'required|email|max:255',
             'subject' => 'required|string|max:255',
             'message' => 'required|string',
+            'phone' => 'required|string|min:10|max:14', // Phone number must be between 10 and 14 characters
         ]);
 
         $data = $request->all();

@@ -93,6 +93,11 @@
         </div>
 
         <div class="key-value">
+            <strong>Phone:</strong>
+            <span>{{ $data['phone'] }}</span>
+        </div>
+
+        <div class="key-value">
             <strong>Subject:</strong>
             <span>{{ $data['subject'] }}</span>
         </div>

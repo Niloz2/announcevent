@@ -70,7 +70,8 @@
                             <a href=""><i class="bi bi-twitter"></i></a>
                             <a href=""><i class="bi bi-facebook"></i></a>
                             <a href=""><i class="bi bi-instagram"></i></a>
-                            <a href="https://www.linkedin.com/in/nicas-lolela-15b024262/"><i class="bi bi-linkedin"></i></a>
+                            <a href="https://www.linkedin.com/in/nicas-lolela-15b024262/"><i
+                                    class="bi bi-linkedin"></i></a>
                         </div>
                         <p>Nicas Lolela is a distinguished speaker known for his insights into technology and
                             innovation. With a career spanning over a decade, he has been instrumental in shaping future
@@ -158,6 +159,11 @@
                             <div class="col-md-6 ">
                                 <input type="email" class="form-control" name="email" placeholder="Your Email"
                                     required="">
+                            </div>
+                            <!-- New Phone Number Input -->
+                            <div class="col-md-6">
+                                <input type="tel" name="phone" class="form-control"
+                                    placeholder="Your Phone Number" required="">
                             </div>
 
                             <!-- Dropdown for Subject -->
