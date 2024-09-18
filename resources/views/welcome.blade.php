@@ -100,7 +100,8 @@
                 <!-- Second Video Item -->
                 <div class="carousel-item" data-aos="fade-up" data-aos-delay="200">
                     <h2>Tanzania International Manufacturers Expo (TIMEXPO) 2024</h2>
-                    <p>26-30 September 2024, Dar es Salaam - Mwalimu J. K. Nyerere Trade Fair Ground, Dar es Salaam, Tanzania</p>
+                    <p>26-30 September 2024, Dar es Salaam - Mwalimu J. K. Nyerere Trade Fair Ground, Dar es Salaam,
+                        Tanzania</p>
                     <div class="mt-3">
                         <a href="https://www.youtube.com/watch?v=WAYfdJrdZcQ"
                             class="glightbox pulsating-play-btn mt-3"></a>
@@ -534,7 +535,9 @@
                     <div class="row justify-content-center">
                         <div class="col-11 col-lg-8 position-relative">
                             <h3>Tanzania International Manufacturers Expo (TIMEXPO) 2024</h3>
-                            <p>Our event will be held at the Saba Saba Grounds in Dar es Salaam-Tanzania, this expo focuses on showcasing Tanzania’s manufacturing potential. It’s a great opportunity to network with industry professionals and investors interested in local businesses​</p>
+                            <p>Our event will be held at the Saba Saba Grounds in Dar es Salaam-Tanzania, this expo
+                                focuses on showcasing Tanzania’s manufacturing potential. It’s a great opportunity to
+                                network with industry professionals and investors interested in local businesses​</p>
                         </div>
                     </div>
                 </div>
@@ -996,7 +999,8 @@
                     <div class="card text-center">
                         <div class="card-body">
                             <h3 class="card-title">Tanzania International Manufacturers Expo (TIMEXPO) 2024</h3>
-                            <a href="https://www.eventbrite.com/e/tanzania-international-manufacturers-expo-timexpo-2024-tickets-1009198679417?msockid=09345d7fa0e66fd1320849a1a11b6e96" class="btn btn-primary" target="_blank">Book Now</a>
+                            <a href="https://www.eventbrite.com/e/tanzania-international-manufacturers-expo-timexpo-2024-tickets-1009198679417?msockid=09345d7fa0e66fd1320849a1a11b6e96"
+                                class="btn btn-primary" target="_blank">Book Now</a>
                         </div>
                     </div>
                 </div>
@@ -1063,7 +1067,9 @@
             </div><!-- End Google Maps -->
 
             <div class="col-lg-6">
-                <form action="#" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="100">
+                <form action="{{ route('send.email') }}" method="POST" class="php-email-form" data-aos="fade-up"
+                    data-aos-delay="100">
+                    @csrf
                     <div class="row gy-4">
 
                         <div class="col-md-6">
@@ -1086,9 +1092,9 @@
                         </div>
 
                         <div class="col-md-12 text-center">
-                            <div class="loading">Loading</div>
-                            <div class="error-message"></div>
-                            <div class="sent-message">Your message has been sent. Thank you!</div>
+                            @if (session('success'))
+                                <div class="sent-message">{{ session('success') }}</div>
+                            @endif
 
                             <button type="submit">Send Message</button>
                         </div>

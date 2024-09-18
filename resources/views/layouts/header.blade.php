@@ -7,6 +7,8 @@
     <title>Announcevent | Announce Your Event</title>
     <meta name="description" content="">
     <meta name="keywords" content="">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+
 
     <!-- Favicons -->
     <link href="assets/img/announce-favicon.jpg" rel="icon">

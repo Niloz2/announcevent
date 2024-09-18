@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ContactController;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,3 +21,6 @@ Route::get('/', function () {
 Route::get('/speaker-details', function () {
     return view('speaker-details');
 });
+
+//send Contact us message
+Route::post('/send-email', [ContactController::class, 'sendEmail'])->name('send.email');
