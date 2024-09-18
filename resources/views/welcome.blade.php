@@ -78,6 +78,41 @@
     }
 
     /*End Style for Book Ticket cards*/
+
+    /*Start: LodingIndicator Style*/
+    .loading-indicator {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        font-size: 16px;
+        color: #007bff;
+        font-weight: bold;
+    }
+
+    .loading-indicator .spinner {
+        width: 24px;
+        height: 24px;
+        border: 4px solid rgba(0, 123, 255, 0.3);
+        /* Lighter blue border */
+        border-top: 4px solid #007bff;
+        /* Darker blue top border */
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+        margin-right: 10px;
+    }
+
+    @keyframes spin {
+        0% {
+            transform: rotate(0deg);
+        }
+
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+
+    /*End:loadingIndicator style*/
 </style>
 <main class="main">
 
@@ -183,11 +218,11 @@
 
                 <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
                     <div class="member">
-                        <img src="assets/img/speakers/speaker-1.jpg" class="img-fluid" alt="">
+                        <img src="assets/img/speakers/speaker-1.jpeg" class="img-fluid" alt="">
                         <div class="member-info">
                             <div class="member-info-content">
-                                <h4><a href="/speaker-details">Walter White</a></h4>
-                                <span>Expert in Leadership & Innovation</span>
+                                <h4><a href="/speaker-details">Nicas Lolela</a></h4>
+                                <span>Technology & AI Visionary</span>
                             </div>
                             <div class="social">
                                 <a href=""><i class="bi bi-twitter-x"></i></a>
@@ -201,11 +236,11 @@
 
                 <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
                     <div class="member">
-                        <img src="assets/img/speakers/speaker-2.jpg" class="img-fluid" alt="">
+                        <img src="assets/img/speakers/speaker-1.jpeg" class="img-fluid" alt="">
                         <div class="member-info">
                             <div class="member-info-content">
-                                <h4><a href="/speaker-details">Hubert Hirthe</a></h4>
-                                <span>Strategic Marketing Specialist</span>
+                                <h4><a href="/speaker-details">Michael Kilunga</a></h4>
+                                <span>Expert in Leadership & Innovation</span>
                             </div>
                             <div class="social">
                                 <a href=""><i class="bi bi-twitter-x"></i></a>
@@ -219,11 +254,11 @@
 
                 <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
                     <div class="member">
-                        <img src="assets/img/speakers/speaker-3.jpg" class="img-fluid" alt="">
+                        <img src="assets/img/speakers/speaker-1.jpeg" class="img-fluid" alt="">
                         <div class="member-info">
                             <div class="member-info-content">
-                                <h4><a href="/speaker-details">Amanda Jepson</a></h4>
-                                <span>Technology & AI Visionary</span>
+                                <h4><a href="/speaker-details">David Bomani</a></h4>
+                                <span>Strategic Marketing Specialist</span>
                             </div>
                             <div class="social">
                                 <a href=""><i class="bi bi-twitter-x"></i></a>
@@ -237,10 +272,10 @@
 
                 <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
                     <div class="member">
-                        <img src="assets/img/speakers/speaker-4.jpg" class="img-fluid" alt="">
+                        <img src="assets/img/speakers/speaker-1.jpeg" class="img-fluid" alt="">
                         <div class="member-info">
                             <div class="member-info-content">
-                                <h4><a href="/speaker-details">William Anderson</a></h4>
+                                <h4><a href="/speaker-details">Isaya Mtembezi</a></h4>
                                 <span>Business Strategy Consultant</span>
                             </div>
                             <div class="social">
@@ -1067,10 +1102,12 @@
             </div><!-- End Google Maps -->
 
             <div class="col-lg-6">
-                <form action="{{ route('send.email') }}" method="POST" class="php-email-form" data-aos="fade-up"
-                    data-aos-delay="100">
+                <form id="contactForm" class="php-email-form" data-aos="fade-up" data-aos-delay="100">
                     @csrf
                     <div class="row gy-4">
+                        @if (session('success'))
+                            <div class="sent-message">{{ session('success') }}</div>
+                        @endif
 
                         <div class="col-md-6">
                             <input type="text" name="name" class="form-control" placeholder="Your Name"
@@ -1082,9 +1119,17 @@
                                 required="">
                         </div>
 
+                        <!-- Dropdown for Subject -->
                         <div class="col-md-12">
-                            <input type="text" class="form-control" name="subject" placeholder="Subject"
-                                required="">
+                            <select name="subject" class="form-control" required="">
+                                <option value="" disabled selected>Select Subject</option>
+                                <option value="General Inquiry">General Inquiry</option>
+                                <option value="Post Announcement Request">Post Announcement Request</option>
+                                <option value="Support Request">Support Request</option>
+                                <option value="Feedback">Feedback</option>
+                                <option value="Complaint">Complaint</option>
+                                <option value="Other">Other</option>
+                            </select>
                         </div>
 
                         <div class="col-md-12">
@@ -1092,10 +1137,14 @@
                         </div>
 
                         <div class="col-md-12 text-center">
-                            @if (session('success'))
-                                <div class="sent-message">{{ session('success') }}</div>
-                            @endif
+                            <div id="successMessage" class="sent-message" style="display: none;">Your message has
+                                been sent successfully.</div>
 
+                            <!-- Loading Indicator (Spinner with Text) -->
+                            <div id="loadingIndicator" style="display: none;" class="loading-indicator">
+                                <div class="spinner"></div>
+                                <span>Sending message, please wait...</span>
+                            </div>
                             <button type="submit">Send Message</button>
                         </div>
 
@@ -1159,6 +1208,39 @@
             eventLocation.innerHTML = details.location;
             eventDate.innerHTML = details.date;
         });
+    });
+
+    //Ajax for the Contact Message Submittion
+    document.getElementById('contactForm').addEventListener('submit', function(event) {
+        event.preventDefault(); // Prevent form from submitting the traditional way
+
+        let formData = new FormData(this); // Capture form data
+
+        // Show loading indicator
+        document.getElementById('loadingIndicator').style.display = 'block';
+
+        // Hide success message if it's shown from a previous submission
+        document.getElementById('successMessage').style.display = 'none';
+
+        fetch('{{ route('send.email') }}', {
+                method: 'POST',
+                headers: {
+                    'X-CSRF-TOKEN': document.querySelector('input[name="_token"]').value
+                },
+                body: formData
+            })
+            .then(response => response.json())
+            .then(data => {
+                // Hide loading indicator when the request is complete
+                document.getElementById('loadingIndicator').style.display = 'none';
+                if (data.success) {
+                    // Show success message
+                    document.getElementById('successMessage').style.display = 'block';
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+            });
     });
 </script>
 @include('layouts.footer')<!--Include the footer of the website-->

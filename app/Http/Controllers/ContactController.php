@@ -18,8 +18,10 @@ class ContactController extends Controller
         ]);
 
         $data = $request->all();
-        Mail::to('nicaslolela2@gmail.com')->send(new ContactMail($data));
+        Mail::to('support@announcevent.com')->send(new ContactMail($data));
 
-        return back()->with('success', 'Your message has been sent.');
+        // return back()->with('success', 'Your message has been sent.');
+        // Return a JSON response after success
+        return response()->json(['success' => true]);
     }
 }
