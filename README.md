@@ -36,7 +36,7 @@ Before you begin, ensure you have the following installed:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/Niloz2/AnnounceVent.git
+   git clone https://github.com/Niloz2/announcevent.git
    cd AnnounceVent
 2. **Install Backend dependencies:**:
    composer install
@@ -87,6 +87,4 @@ For any inquiries or support, please reach out to us:
 7. **Contributing**: Guidelines for contributing to the project.
 8. **License**: Information about the open-source license (MIT in this case).
 9. **Contact**: Information on how to reach the team for support or inquiries.
-
-You can modify the links (e.g., `https://github.com/Niloz2/AnnounceVent.git`) to match your repository details. This template provides a comprehensive view of your project, which will look professional on GitHub!
 
