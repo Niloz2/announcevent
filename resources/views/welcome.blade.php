@@ -1105,9 +1105,6 @@
                 <form id="contactForm" class="php-email-form" data-aos="fade-up" data-aos-delay="100">
                     @csrf
                     <div class="row gy-4">
-                        @if (session('success'))
-                            <div class="sent-message">{{ session('success') }}</div>
-                        @endif
 
                         <div class="col-md-6">
                             <input type="text" name="name" class="form-control" placeholder="Your Name"
@@ -1145,6 +1142,10 @@
                         <div class="col-md-12 text-center">
                             <div id="successMessage" class="sent-message" style="display: none;">Your message has
                                 been sent successfully.</div>
+                            <!-- Error Message -->
+                            <div id="errorMessage" class="sent-message bg-light" style="display: none; color: red;">
+                                An error occurred. Please Verify Your Details and try again.
+                            </div>
 
                             <!-- Loading Indicator (Spinner with Text) -->
                             <div id="loadingIndicator" style="display: none;" class="loading-indicator">
@@ -1227,6 +1228,9 @@
 
         // Hide success message if it's shown from a previous submission
         document.getElementById('successMessage').style.display = 'none';
+        const errorMessage = document.getElementById('errorMessage');
+        // Hide error message if it's shown from a previous submission
+        errorMessage.style.display = 'none';
 
         fetch('{{ route('send.email') }}', {
                 method: 'POST',
@@ -1242,10 +1246,17 @@
                 if (data.success) {
                     // Show success message
                     document.getElementById('successMessage').style.display = 'block';
+                } else {
+                    // Show error message
+                    errorMessage.style.display = 'block';
                 }
             })
             .catch(error => {
+                // Hide loading indicator
+                loadingIndicator.style.display = 'none';
                 console.error('Error:', error);
+                // Show error message
+                errorMessage.style.display = 'block';
             });
     });
 </script>
