@@ -125,14 +125,23 @@
             <div class="carousel-inner">
                 <!-- First Video Item -->
                 <div class="carousel-item active" data-aos="fade-up" data-aos-delay="100">
-                    <h2>The Startup Week Event</h2>
-                    <p>18-22 November 2024, Julius Nyerere International Convention Centre (JNICC) - Dar es salaam</p>
+                    <h2>Graduate Resource Exchange Forum (GREF) 2024</h2>
+                    <p>2024! From October 7-11 at the Jakaya Kikwete Convention Centre in Dodoma, Tanzania,</p>
                     <div class="mt-3">
-                        <a href="https://www.youtube.com/watch?v=voV4tF2kMRM"
+                        <a href="https://www.youtube.com/watch?v=-BXfQSQ-anc"
                             class="glightbox pulsating-play-btn mt-3"></a>
                     </div>
                 </div>
                 <!-- Second Video Item -->
+                <div class="carousel-item" data-aos="fade-up" data-aos-delay="100">
+                    <h2>The Startup Week Event</h2>
+                    <p>18-22 November 2024, Julius Nyerere International Convention Centre (JNICC) - Dar es salaam</p>
+                    <div class="mt-3">
+                        <a href="https://www.youtube.com/watch?v=-BXfQSQ-anc"
+                            class="glightbox pulsating-play-btn mt-3"></a>
+                    </div>
+                </div>
+                <!-- Third Video Item -->
                 <div class="carousel-item" data-aos="fade-up" data-aos-delay="200">
                     <h2>Tanzania International Manufacturers Expo (TIMEXPO) 2024</h2>
                     <p>26-30 September 2024, Dar es Salaam - Mwalimu J. K. Nyerere Trade Fair Ground, Dar es Salaam,
@@ -142,7 +151,7 @@
                             class="glightbox pulsating-play-btn mt-3"></a>
                     </div>
                 </div>
-                <!-- Third Video Item -->
+                <!-- Fourth Video Item -->
                 <div class="carousel-item" data-aos="fade-up" data-aos-delay="200">
                     <h2>Tanzania Annual ICT Conference 2024</h2>
                     <p>13-17 October 2024, Julius Nyerere International Convention Centre (JNICC) - Dar es salaam</p>
@@ -182,19 +191,22 @@
                 <div class="row">
                     <div class="col-lg-6">
                         <h2 id="event-title">About The Event</h2>
-                        <p id="event-description">Join us for an insightful and engaging event where industry leaders
-                            and professionals come together to discuss the latest trends, challenges, and innovations.
-                            Expect inspiring talks, networking opportunities, and hands-on workshops tailored to empower
-                            attendees with actionable knowledge and skills.</p>
+                        <p id="event-description">Join us for the Graduate Resource Exchange Forum (GREF) 2024! From
+                            October 7-11 at the Jakaya Kikwete Convention Centre in Dodoma, Tanzania, we’re bringing
+                            together over 50 employers and 2,000+ graduates for an event you won’t want to miss! ✨
+                            Network with top employers ✨ Gain insights from industry leaders ✨ Empower your career and
+                            entrepreneurial journey Organized by @strategiusadvisory in partnership with the Dodoma
+                            Regional Administration, GREF 2024 is your gateway to unlocking potential and driving social
+                            and economic change.</p>
                     </div>
                     <div class="col-lg-3">
                         <h3>Where</h3>
-                        <p id="event-location">Julius Nyerere International Convention Centre (JNICC) - Dar es salaam
+                        <p id="event-location">Jakaya Kikwete Convention Centre in Dodoma, Tanzania,
                         </p>
                     </div>
                     <div class="col-lg-3">
                         <h3>When</h3>
-                        <p id="event-date">Monday to Friday<br>18-22 November 2024 9:00 AM - 5:00 PM</p>
+                        <p id="event-date">Thursday to Monday<br>07-11 October 2024 9:00 AM - 5:00 PM</p>
                     </div>
                 </div>
             </div>
@@ -557,6 +569,34 @@
                 easy access and designed to inspire and engage.</p>
         </div><!-- End Section Title -->
 
+        {{-- Added the First event venue --}}
+        <div class="container-fluid" data-aos="fade-up">
+
+            <div class="row g-0">
+                <div class="col-lg-6 venue-map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.5783132906877!2d35.7622935!3d-6.1871440999999985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x184de54a9cf1697b%3A0xde2e0252de5daa8b!2sJAKAYA%20KIKWETE%20CONVENTION%20CENTRE!5e0!3m2!1sen!2stz!4v1726751193482!5m2!1sen!2stz"
+                        frameborder="0" style="border:0" allowfullscreen=""></iframe>
+                </div>
+
+                <div class="col-lg-6 venue-info">
+                    <div class="row justify-content-center">
+                        <div class="col-11 col-lg-8 position-relative">
+                            <h3>Graduate Resource Exchange Forum (GREF) 2024</h3>
+                            <p>Join us for the Graduate Resource Exchange Forum (GREF) 2024! From October 7-11 at the
+                                Jakaya Kikwete Convention Centre in Dodoma, Tanzania, we’re bringing together over 50
+                                employers and 2,000+ graduates for an event you won’t want to miss! ✨ Network with top
+                                employers ✨ Gain insights from industry leaders ✨ Empower your career and
+                                entrepreneurial journey Organized by @strategiusadvisory in partnership with the Dodoma
+                                Regional Administration, GREF 2024 is your gateway to unlocking potential and driving
+                                social and economic change.​</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        {{-- Added the second event venue --}}
         <div class="container-fluid" data-aos="fade-up">
 
             <div class="row g-0">
@@ -579,7 +619,7 @@
             </div>
 
         </div>
-        {{-- Added the second event venue --}}
+        {{-- Added the third event venue --}}
         <div class="container-fluid" data-aos="fade-up">
 
             <div class="row g-0">
@@ -605,7 +645,7 @@
             </div>
 
         </div>
-        {{-- Added the third event venue for the Tanzania Annual ICT Conference 2024 --}}
+        {{-- Added the fourth event venue for the Tanzania Annual ICT Conference 2024 --}}
         <div class="container-fluid" data-aos="fade-up">
 
             <div class="row g-0">
@@ -1039,6 +1079,16 @@
                         </div>
                     </div>
                 </div>
+                <!-- Event Card for Graduate Resource Exchange Forum (GREF) 2024 -->
+                <div class="col-lg-4 d-flex align-items-center justify-content-center">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <h3 class="card-title">Graduate Resource Exchange Forum (GREF) 2024</h3>
+                            <a href="https://allevents.in/dodoma/graduate-resource-exchange-forum-gref-2024/200027038209338"
+                                class="btn btn-primary" target="_blank">Book Now</a>
+                        </div>
+                    </div>
+                </div>
                 <!-- Add more event cards as needed -->
             </div>
         </div>
@@ -1180,20 +1230,27 @@
         // Array of event details to match each carousel slide
         const eventDetails = [{
                 // First event details (this corresponds to the first carousel item)
+                title: "About The Graduate Resource Exchange Forum (GREF) 2024",
+                description: "Join us for the Graduate Resource Exchange Forum (GREF) 2024! From October 7-11 at the Jakaya Kikwete Convention Centre in Dodoma, Tanzania, we’re bringing together over 50 employers and 2,000+ graduates for an event you won’t want to miss! ✨ Network with top employers ✨ Gain insights from industry leaders ✨ Empower your career and entrepreneurial journey Organized by @strategiusadvisory in partnership with the Dodoma Regional Administration, GREF 2024 is your gateway to unlocking potential and driving social and economic change.",
+                location: "Jakaya Kikwete Convention Centre in Dodoma, Tanzania,",
+                date: "Thursday to Monday<br>07-11 October 2024"
+            },
+            {
+                // Second event details (this corresponds to the first carousel item)
                 title: "About The Startup Week Conference",
                 description: "The Annual Startup Week Conference brings together professionals from all over the world to discuss the latest trends in Startups.",
                 location: "Julius Nyerere International Convention Centre (JNICC) - Dar es salaam",
                 date: "Monday to Wednesday<br>18-22 November 2024"
             },
             {
-                // Second event details (this corresponds to the second carousel item)
+                // Third event details (this corresponds to the second carousel item)
                 title: "About The Tanzania International Manufacturers Expo (TIMEXPO) 2024 Conference",
                 description: "This expo focuses on showcasing Tanzania’s manufacturing potential. It’s a great opportunity to network with industry professionals and investors interested in local businesses​",
                 location: "Dar es Salaam - Mwalimu J. K. Nyerere Trade Fair Ground, Dar es Salaam, Tanzania",
                 date: "Thursday to Monady<br>26-30 September 2024"
             },
             {
-                // Third event details (this corresponds to the third carousel item)
+                // Fourth event details (this corresponds to the third carousel item)
                 title: "About Unleashing the Power of Artificial Intelligence and Robotics for socio-economic Transformation",
                 description: "The Tanzania Annual ICT Conference 2024 focuses on Unleashing the Power of Artificial Intelligence and Robotics for socio-economic Transformation.",
                 location: "Julius Nyerere International Convention Centre (JNICC) - Dar es salaam, Tanzania",
